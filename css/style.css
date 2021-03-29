@@ -7,6 +7,30 @@ html {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.buttonLogout {
+    background-color: #98ca3f;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: #03091e;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+.buttonLogout:hover {
+    background-color: #c1df8b;
+}
+.buttonAccount {
+    border: 1px solid 
+    #98ca3f;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #98ca3f;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+.buttonAccount:hover {
+    border-color: #c1df8b;
+    color: #c1df8b;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +44,7 @@ header {
 }
 header h1 {
     font-size: 2.8rem;
+    color: #98ca3f;
 }
 header nav ul {
     display: flex;
@@ -47,6 +72,10 @@ footer {
     width: 100%;
     height: 70px;
     background-color: #03091e;
+}
+footer nav {
+    width: inherit;
+    height: inherit;
 }
 footer nav ul {
     width: inherit;
